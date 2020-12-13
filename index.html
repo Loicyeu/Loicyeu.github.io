@@ -14,14 +14,14 @@
 </head>
 <body>
 
-<div class="jumbotron">
+<div class="jumbotron overflow-hidden fixed-top">
     <div class="d-flex">
-        <img src="assets/images/profile_picture.jpg" alt="Photo de profile" height="300" class="mr-4 rounded">
+        <img id="profilePicture" src="assets/images/profile_picture.jpg" alt="Photo de profile" height="300" class="mr-4 rounded">
         <div class="flex-fill">
             <h1 class="display-4">Loïc HENRY</h1>
-            <p class="lead">Étudiant</p>
-            <hr class="my-4">
-            <ul>
+            <p class="lead mb-0">Étudiant</p>
+            <hr class="my-4 presentationHide">
+            <ul class="presentationHide">
                 <li style="list-style: url('assets/svg/house-door-fill.svg');">1, Triangle de la Gagnerie, 44340 Bouguenais</li>
                 <li style="list-style: url('assets/svg/phone.svg');"><a href="tel:+782250938">(+33) 07 82 25 09 38</a></li>
                 <li style="list-style: url('assets/svg/envelope-fill.svg');"><a href="mailto:loic.henry2001@gmail.com">loic.henry2001@gmail.com</a></li>
@@ -34,16 +34,7 @@
 
 </div>
 
-<script>
-    $(function () {
-        $(window).on("scroll", function () {
-            if($(this).scrollTop()<1)
-                console.log("top");
-            else
-                console.log("not top");
-        });
-    });
-</script>
+<script src="assets/script/script.js"></script>
 
 </body>
 </html>
