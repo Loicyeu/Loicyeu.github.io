@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div class="jumbotron overflow-hidden fixed-top">
+<div id="presentation" class="jumbotron overflow-hidden fixed-top">
     <div class="d-flex">
         <img id="profilePicture" src="assets/images/profile_picture.jpg" alt="Photo de profile" height="300" class="mr-4 rounded">
         <div class="flex-fill">
@@ -29,6 +29,131 @@
                 <li style="list-style: url('assets/svg/person-fill.svg');">19 ans</li>
                 <li style="list-style: url('assets/svg/car-solid.svg');">Permis B (Véhiculé)</li>
             </ul>
+        </div>
+    </div>
+</div>
+
+<div id="skills" class="container-fluid px-5">
+    <h1 class="mb-4">COMPÉTENCES</h1>
+    <div class="d-flex justify-content-around mb-5">
+        <!-- HTML CSS -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/HTML5.svg" alt="Logo de HTML" height="100">
+                <img src="assets/svg/logos/CSS3.svg" alt="Logo de CSS" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Bases du web</h5>
+                <p class="card-text text-justify">J'ai réalisé un jeu pur CSS, et plusieurs sites basiques utilisant HTMl et CSS. J'utilise parfois Bootstrap.</p>
+                <a href="https://savethefish.loicyeu.fr" target="_blank" class="card-link">Projet SaveTheFish</a>
+            </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/PHP.svg" alt="Logo de PHP" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Web dynamique</h5>
+                <p class="card-text text-justify">J'ai réalisé un 2048 en PHP sans utilisation de Javascript. Utilisation des sessions, des urls longues et des requêtes POST.</p>
+                <a href="https://2048.loicyeu.fr" target="_blank" class="card-link">Projet 2048</a>
+            </div>
+        </div>
+
+        <!-- Javascript Node.js -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Javascript.svg" alt="Logo de JavaScript" height="100">
+                <img src="assets/svg/logos/Nodejs.svg" alt="Logo de Node.js" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Web serveur</h5>
+                <p class="card-text text-justify">J'ai réalisé un site non abouti, avec inscription permettant d'envoyer des messages privés à d'autres utilisateurs.</p>
+                <a href="https://github.com/Loicyeu/loicyeu/tree/front-end-dev" target="_blank" class="card-link">Projet Loicyeu.fr</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-around mb-5">
+        <!-- Java -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Java.svg" alt="Logo de Java" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Prog. orientée objet</h5>
+                <p class="card-text text-justify">Réalisation d'une application JavaFX permettant aux professeurs de classer les dossiers Parcoursup plus facilement.</p>
+                <a class="card-link text-secondary">Projet indisponible</a>
+            </div>
+        </div>
+
+        <!-- C -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/C.svg" alt="Logo de C" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Programmation impérative</h5>
+                <p class="card-text text-justify">Réalisation de listes chainées, utilisation des pointeurs, des interruptions systèmes et des forks.</p>
+            </div>
+        </div>
+
+        <!-- Python -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Python.svg" alt="Logo de Python" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Python</h5>
+                <p class="card-text text-justify">Réalisation de divers programmes de probabilités, de statistiques et de mathématiques en général. Utilisation de SciPy, Numpy et Matplotlib.</p>
+            </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Mysql.svg" alt="Logo de MySQL" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Base de données</h5>
+                <p class="card-text text-justify">Utilisation de MySQL et Oracle SQL.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-around">
+        <!-- Office -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Office.svg" alt="Logo d'Office" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Pack Office</h5>
+                <p class="card-text text-justify">Utilisation d'Excel, Word et Powerpoint.</p>
+            </div>
+        </div>
+
+        <!-- JetBrains -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <a href="https://www.jetbrains.com" target="_blank"><img src="assets/svg/logos/JetBrains.svg" alt="Logo de JetBrains" height="100"></a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Suite JetBrains</h5>
+                <p class="card-text text-justify">Utilisation d'IntelliJ IDEA, PhpStorm et WebStorm</p>
+            </div>
+        </div>
+
+        <!-- Bash -->
+        <div class="card pt-3">
+            <div class="d-flex justify-content-around">
+                <img src="assets/svg/logos/Bash.svg" alt="Logo de Bash" height="100">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Bash</h5>
+                <p class="card-text text-justify">Connaissance de base en Bash et en utilisation de terminaux de commandes.</p>
+            </div>
         </div>
     </div>
 
