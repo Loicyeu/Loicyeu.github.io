@@ -25,4 +25,13 @@ $(function () {
         if(profilePictureHeight-scrollPos>=100)
             $("#skills").css("margin-top", jumbotron.outerHeight()+scrollPos);
     });
-})
+
+    // $("#darkMode").on("click", function () {
+    //     console.log('test');
+    //     if($("#darkMode:checked").length===0) {
+    //         console.log("not selected");
+    //     }else {
+    //         console.log("selected");
+    //     }
+    // });
+});
