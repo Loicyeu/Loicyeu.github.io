@@ -5,6 +5,7 @@ const profilePictureHeight = document.getElementById("profilePicture").offsetHei
 document.getElementById("skills").style.marginTop = jumbostronHeight+"px";
 
 $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
 
     $(window).on("scroll", function () {
         let scrollPos = $(this).scrollTop();
