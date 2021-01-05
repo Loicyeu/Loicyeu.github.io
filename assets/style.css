@@ -6,4 +6,12 @@ body {
   width: 18rem;
 }
 
+.bg-darker {
+  background-color: #282e34;
+}
+
+.bg-darkgrey {
+  background-color: #40464c;
+}
+
 /*# sourceMappingURL=style.css.map */
