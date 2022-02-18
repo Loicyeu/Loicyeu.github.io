@@ -1,0 +1,21 @@
+body {
+  padding-top: 2em;
+}
+
+.card {
+  width: 18rem;
+}
+
+.bg-darker {
+  background-color: #282e34;
+}
+
+.bg-darkgrey {
+  background-color: #40464c;
+}
+
+li::before {
+  fill: white;
+}
+
+/*# sourceMappingURL=style.css.map */
