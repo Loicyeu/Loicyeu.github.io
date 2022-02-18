@@ -1,0 +1,53 @@
+{
+  "name": "",
+  "title": "",
+  "image": "",
+  "personalInformation": {
+    "address": "",
+    "phone": "",
+    "mail": "",
+    "git": "",
+    "age": "",
+    "drive": ""
+  },
+  "experience": [
+    {
+      "date": "",
+      "title": "",
+      "place": "",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "education": [
+    {
+      "date": "",
+      "title": "",
+      "place": "",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "social": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/loicyeu",
+      "logo": "Facebook.svg"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/loicyeu",
+      "logo": "Twitter.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lo%C3%AFc-henry/",
+      "logo": "LinkedIn.svg"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Loicyeu",
+      "logo": "GitHub.svg"
+    }
+  ]
+}
