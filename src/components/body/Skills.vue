@@ -5,8 +5,8 @@
             <!-- HTML CSS -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de HTML" height="100" :src="`${publicPath}assets/logos/HTML5.svg`">
-                    <img alt="Logo de CSS" height="100" :src="`${publicPath}assets/logos/CSS3.svg`">
+                    <img alt="Logo de HTML" height="100" :src="`${publicPath}assets/images/logos/HTML5.svg`">
+                    <img alt="Logo de CSS" height="100" :src="`${publicPath}assets/images/logos/CSS3.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Bases du web</h5>
@@ -19,7 +19,7 @@
             <!-- PHP -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de PHP" height="100" :src="`${publicPath}assets/logos/PHP.svg`">
+                    <img alt="Logo de PHP" height="100" :src="`${publicPath}assets/images/logos/PHP.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Web dynamique</h5>
@@ -33,8 +33,8 @@
             <!-- Javascript Node.js -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de JavaScript" height="100" :src="`${publicPath}assets/logos/Javascript.svg`">
-                    <img alt="Logo de Node.js" height="100" :src="`${publicPath}assets/logos/Nodejs.svg`">
+                    <img alt="Logo de JavaScript" height="100" :src="`${publicPath}assets/images/logos/Javascript.svg`">
+                    <img alt="Logo de Node.js" height="100" :src="`${publicPath}assets/images/logos/Nodejs.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Web serveur</h5>
@@ -51,7 +51,7 @@
             <!-- Java -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de Java" height="100" :src="`${publicPath}assets/logos/Java.svg`">
+                    <img alt="Logo de Java" height="100" :src="`${publicPath}assets/images/logos/Java.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Prog. orientée objet</h5>
@@ -64,7 +64,7 @@
             <!-- C -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de C" height="100" :src="`${publicPath}assets/logos/C.svg`">
+                    <img alt="Logo de C" height="100" :src="`${publicPath}assets/images/logos/C.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Prog. procédurale</h5>
@@ -76,7 +76,7 @@
             <!-- Python -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de Python" height="100" :src="`${publicPath}assets/logos/Python.svg`">
+                    <img alt="Logo de Python" height="100" :src="`${publicPath}assets/images/logos/Python.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Python</h5>
@@ -89,7 +89,7 @@
             <!-- SQL -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de MySQL" height="100" :src="`${publicPath}assets/logos/Mysql.svg`">
+                    <img alt="Logo de MySQL" height="100" :src="`${publicPath}assets/images/logos/Mysql.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Base de données</h5>
@@ -102,7 +102,7 @@
             <!-- Office -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo d'Office" height="100" :src="`${publicPath}assets/logos/Office.svg`">
+                    <img alt="Logo d'Office" height="100" :src="`${publicPath}assets/images/logos/Office.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Pack Office</h5>
@@ -116,7 +116,7 @@
                     <a href="https://www.jetbrains.com" target="_blank">
                         <img alt="Logo de JetBrains"
                              height="100"
-                             :src="`${publicPath}assets/logos/JetBrains.svg`"></a>
+                             :src="`${publicPath}assets/images/logos/JetBrains.svg`"></a>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Suite JetBrains</h5>
@@ -127,7 +127,7 @@
             <!-- Bash -->
             <div class="card pt-3">
                 <div class="d-flex justify-content-around">
-                    <img alt="Logo de Bash" height="100" :src="`${publicPath}assets/logos/Bash.svg`">
+                    <img alt="Logo de Bash" height="100" :src="`${publicPath}assets/images/logos/Bash.svg`">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Bash</h5>

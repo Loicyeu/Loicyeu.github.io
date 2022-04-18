@@ -2,7 +2,7 @@ const jumbostronHeight = document.getElementById("presentation").offsetHeight;
 const profilePictureHeight = document.getElementById("profilePicture").offsetHeight;
 
 //Initialize position
-document.getElementById("skills").style.marginTop = jumbostronHeight + "px";
+document.getElementById("projects").style.marginTop = jumbostronHeight + "px";
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
@@ -23,7 +23,7 @@ $(function () {
             jumbotron.css("height", "auto");
         }
         if (profilePictureHeight - scrollPos >= 100)
-            $("#skills").css("margin-top", jumbotron.outerHeight() + scrollPos);
+            $("#projects").css("margin-top", jumbotron.outerHeight() + scrollPos);
     });
 
     $("#darkMode").on("click", function () {

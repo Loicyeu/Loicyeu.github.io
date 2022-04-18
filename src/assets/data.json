@@ -10,6 +10,111 @@
     "age": "",
     "drive": ""
   },
+  "projects": {
+    "skills": {
+      "HTML": {
+        "name": "HTML",
+        "image": "HTML5.svg"
+      },
+      "CSS": {
+        "name": "CSS",
+        "image": "CSS3.svg"
+      },
+      "PHP": {
+        "name": "PHP",
+        "image": "PHP.svg"
+      },
+      "JavaScript": {
+        "name": "JavaScript",
+        "image": "Javascript.svg"
+      },
+      "NodeJs": {
+        "name": "NodeJs",
+        "image": "Nodejs.svg"
+      },
+      "Java": {
+        "name": "Java",
+        "image": "Java.svg"
+      },
+      "Android": {
+        "name": "Android",
+        "image": "Android.svg"
+      },
+      "C": {
+        "name": "C",
+        "image": "C.svg"
+      },
+      "Go": {
+        "name": "Go",
+        "image": "Go.svg"
+      },
+      "Python": {
+        "name": "Python",
+        "image": "Python.svg"
+      }
+    },
+    "projects": [
+      {
+        "name": "Negobulum : Jeu de cartes de football",
+        "description": "Réalisation en binôme d'une application Java avec un cahier des charges précis. Utilisation de la librairie graphique JavaFX.",
+        "skills": [
+          "Java"
+        ]
+      },
+      {
+        "name": "Finale Google Hashcode 2021",
+        "git": "https://github.com/Loicyeu/google-hashcode-2021",
+        "description": "Production d'une solution pour le sujet 2021 de la finale du Google Hashcode. Travail en équipe de 4 personnes dont certains débutants en développement. Utilisation de Python, langage imposé par Polytech. Classement interne : 6/27.",
+        "skills": [
+          "Python"
+        ]
+      },
+      {
+        "name": "ParcoursupHelper",
+        "git": "https://gitlab.com/Loicyeu/parcoursuphelper-app",
+        "description": "Réalisation d'une application permettant d'assister les enseignants dans le traitement des demandes d'admission de l'IUT. L'application est écrite en Java et utilise la librairie graphique JavaFX. Elle permet la création de critères de notation des dossiers, auxquels chaque enseignant devra ensuite répondre, permettant ainsi d'arriver à une note par candidat. L'application exporte les résultats dans un tableur Excel.",
+        "skills": [
+          "Java"
+        ]
+      },
+      {
+        "name": "Android Beer App : Application de recherche de bière",
+        "git": "https://gitlab.com/Loicyeu/android-beer-app",
+        "description": "Réalisation d'une application Android permettant la recherche d'un bière selon des critères imposés, dans l'API PunkApi.",
+        "skills": [
+          "Java",
+          "Android"
+        ]
+      },
+      {
+        "name": "Consequat : Recherche de recette",
+        "git": "https://gitlab.com/Loicyeu/consequat",
+        "description": "Création d'un site web de recherche de recette sur l'API de Spoonacular. Utilisation du framework Vue.js et de son CLI.",
+        "skills": [
+          "NodeJs",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Beeroute : Rest API",
+        "git": "https://gitlab.com/Loicyeu/beeroute",
+        "description": "Création d'une API Rest avec le framework Hapi pour la recherche de bières et de brasserie.",
+        "skills": [
+          "NodeJs"
+        ]
+      },
+      {
+        "name": "Gobweb : réseau pair à pair",
+        "git": "https://gitlab.com/Loicyeu/gobweb",
+        "description": "Création d'un réseau pair à pair en Go, devant supporter une application de messagerie simple entre les utilisateurs.",
+        "skills": [
+          "Go"
+        ]
+      }
+    ]
+  },
   "experience": [
     {
       "date": "",
@@ -42,12 +147,12 @@
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/lo%C3%AFc-henry/",
-      "logo": "LinkedIn.svg"
+      "logo": "Linkedin.svg"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/Loicyeu",
-      "logo": "GitHub.svg"
+      "logo": "Github.svg"
     }
   ]
 }

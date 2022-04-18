@@ -5,7 +5,7 @@
         </div>
         <div class="col-sm-9 d-flex align-items-center">
             <img v-if="hasImage" :alt="itemTitle" class="mr-2 rounded-circle" height="64"
-                 :src="`${publicPath}assets/logos/${imageName}`"
+                 :src="`${publicPath}assets/images/logos/${imageName}`"
                  width="64">
             <div>
                 <p class="mb-0"><b>{{ itemTitle }} </b> – {{ place }}</p>

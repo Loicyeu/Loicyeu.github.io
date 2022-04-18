@@ -1,6 +1,6 @@
 <template>
     <a class="mr-5" data-placement="top" data-toggle="tooltip" :href="socialLink" target="_blank" :title="socialName">
-        <img :alt="`Logo de ${socialName}`" height="50" :src="`${publicPath}assets/logos/${socialImage}`">
+        <img :alt="`Logo de ${socialName}`" height="50" :src="`${publicPath}assets/images/social/${socialImage}`">
     </a>
 </template>
 
